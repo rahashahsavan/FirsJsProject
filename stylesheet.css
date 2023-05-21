@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('font/Vazir-Regular-FD.woff');
+  }
+
+body{
+    background-color: #fff;
+    font-family: 'Vazir-FD';
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    height: fit-content;
+    margin:auto;
+    padding:5px 5px;
+    width:400px;
+}
+h1{
+    color:rgb(18, 111, 111);
+    font-size: 26px;
+    padding-bottom:3px;
+    padding-right: 2px;
+}
+form{
+    box-shadow:3px 3px 25px  #b6bdbc;
+    border-radius: 4px;
+    width:350px;
+    padding:10px 10px;
+    
+}
+
+input{
+    
+    text-align: center;
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(231, 246, 243);
+    border:0.5px solid #b6bdbc;
+    margin:10px 10px ;
+    outline: none;
+    font-family: inherit;
+}
+.btn{
+    background-color: rgba(73, 152, 155, 0.664);
+    text-align: center;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(67, 128, 128);
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  li {
+    width:100%;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 5px rgb(0, 0, 0, 0.07);
+  }
+  
+ 
+  
