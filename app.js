@@ -9,7 +9,7 @@ const addProduct = (event) => {
   event.preventDefault()
 
   const productItem = document.createElement('li')
-  const productInfo = document.createTextNode(`${title.value} - ${price.value}`)
+  const productInfo = document.createTextNode(`محصول : ${title.value} -  قیمت :  ${price.value}`)
   productItem.appendChild(productInfo)
 
   products.appendChild(productItem)
